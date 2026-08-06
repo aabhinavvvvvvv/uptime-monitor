@@ -1,0 +1,18 @@
+{
+  "name": "@uptime/worker",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env src/index.ts",
+    "register": "tsx --env-file=.env src/register-job.ts"
+  },
+  "dependencies": {
+    "@uptime/db": "*",
+    "bullmq": "^5.34.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
