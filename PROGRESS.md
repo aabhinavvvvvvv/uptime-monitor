@@ -1,5 +1,7 @@
 # Build Log — Distributed API Uptime & Latency Monitor
 
+Repo: https://github.com/aabhinavvvvvvv/uptime-monitor
+
 This is a running log of what's been built, why, and what tripped us up along the way.
 Kept in the repo (not just chat history) so it survives across sessions and doubles as
 interview prep material — every decision here has a reason behind it.
